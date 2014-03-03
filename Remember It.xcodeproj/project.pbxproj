@@ -22,6 +22,13 @@
 		6B498F3018C2A9EA00C88438 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B498F0F18C2A9E900C88438 /* UIKit.framework */; };
 		6B498F3818C2A9EA00C88438 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6B498F3618C2A9EA00C88438 /* InfoPlist.strings */; };
 		6B498F3A18C2A9EA00C88438 /* Remember_ItTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B498F3918C2A9EA00C88438 /* Remember_ItTests.m */; };
+		6BDC269D18C404D000FA4D41 /* BlueGradient.png in Resources */ = {isa = PBXBuildFile; fileRef = 6BDC269C18C404D000FA4D41 /* BlueGradient.png */; };
+		6BDC26A018C407DE00FA4D41 /* JWCCollectionViewDataSourceRemeberIt.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BDC269F18C407DE00FA4D41 /* JWCCollectionViewDataSourceRemeberIt.m */; };
+		6BDC26A418C40A7400FA4D41 /* JWCCollectionViewCellDescription.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BDC26A318C40A7400FA4D41 /* JWCCollectionViewCellDescription.m */; };
+		6BDC26A818C40A9300FA4D41 /* JWCCollectionViewCellReminder.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BDC26A718C40A9300FA4D41 /* JWCCollectionViewCellReminder.m */; };
+		6BDC26AB18C40AA200FA4D41 /* JWCCollectionViewCellOptions.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BDC26AA18C40AA200FA4D41 /* JWCCollectionViewCellOptions.m */; };
+		6BDC26AE18C40AAB00FA4D41 /* JWCCollectionViewCellContacts.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BDC26AD18C40AAB00FA4D41 /* JWCCollectionViewCellContacts.m */; };
+		6BDC26B118C40AB800FA4D41 /* JWCCollectionViewCellRememberIt.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BDC26B018C40AB800FA4D41 /* JWCCollectionViewCellRememberIt.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,8 +50,8 @@
 		6B498F1518C2A9E900C88438 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6B498F1718C2A9E900C88438 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6B498F1918C2A9E900C88438 /* Remember It-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Remember It-Prefix.pch"; sourceTree = "<group>"; };
-		6B498F1A18C2A9E900C88438 /* JWCAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JWCAppDelegate.h; sourceTree = "<group>"; };
-		6B498F1B18C2A9E900C88438 /* JWCAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JWCAppDelegate.m; sourceTree = "<group>"; };
+		6B498F1A18C2A9E900C88438 /* JWCAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = JWCAppDelegate.h; path = "Remember It/JWCAppDelegate.h"; sourceTree = "<group>"; };
+		6B498F1B18C2A9E900C88438 /* JWCAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = JWCAppDelegate.m; path = "Remember It/JWCAppDelegate.m"; sourceTree = "<group>"; };
 		6B498F1E18C2A9E900C88438 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
 		6B498F2118C2A9E900C88438 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
 		6B498F2318C2A9E900C88438 /* JWCViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JWCViewController.h; sourceTree = "<group>"; };
@@ -55,6 +62,19 @@
 		6B498F3518C2A9EA00C88438 /* Remember ItTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Remember ItTests-Info.plist"; sourceTree = "<group>"; };
 		6B498F3718C2A9EA00C88438 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6B498F3918C2A9EA00C88438 /* Remember_ItTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Remember_ItTests.m; sourceTree = "<group>"; };
+		6BDC269C18C404D000FA4D41 /* BlueGradient.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BlueGradient.png; sourceTree = "<group>"; };
+		6BDC269E18C407DE00FA4D41 /* JWCCollectionViewDataSourceRemeberIt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JWCCollectionViewDataSourceRemeberIt.h; sourceTree = "<group>"; };
+		6BDC269F18C407DE00FA4D41 /* JWCCollectionViewDataSourceRemeberIt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JWCCollectionViewDataSourceRemeberIt.m; sourceTree = "<group>"; };
+		6BDC26A218C40A7400FA4D41 /* JWCCollectionViewCellDescription.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JWCCollectionViewCellDescription.h; path = "Remember It/JWCCollectionViewCellDescription.h"; sourceTree = "<group>"; };
+		6BDC26A318C40A7400FA4D41 /* JWCCollectionViewCellDescription.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JWCCollectionViewCellDescription.m; path = "Remember It/JWCCollectionViewCellDescription.m"; sourceTree = "<group>"; };
+		6BDC26A618C40A9300FA4D41 /* JWCCollectionViewCellReminder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JWCCollectionViewCellReminder.h; path = "Remember It/JWCCollectionViewCellReminder.h"; sourceTree = "<group>"; };
+		6BDC26A718C40A9300FA4D41 /* JWCCollectionViewCellReminder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JWCCollectionViewCellReminder.m; path = "Remember It/JWCCollectionViewCellReminder.m"; sourceTree = "<group>"; };
+		6BDC26A918C40AA200FA4D41 /* JWCCollectionViewCellOptions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JWCCollectionViewCellOptions.h; path = "Remember It/JWCCollectionViewCellOptions.h"; sourceTree = "<group>"; };
+		6BDC26AA18C40AA200FA4D41 /* JWCCollectionViewCellOptions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JWCCollectionViewCellOptions.m; path = "Remember It/JWCCollectionViewCellOptions.m"; sourceTree = "<group>"; };
+		6BDC26AC18C40AAB00FA4D41 /* JWCCollectionViewCellContacts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JWCCollectionViewCellContacts.h; sourceTree = "<group>"; };
+		6BDC26AD18C40AAB00FA4D41 /* JWCCollectionViewCellContacts.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JWCCollectionViewCellContacts.m; sourceTree = "<group>"; };
+		6BDC26AF18C40AB800FA4D41 /* JWCCollectionViewCellRememberIt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JWCCollectionViewCellRememberIt.h; path = "Remember It/JWCCollectionViewCellRememberIt.h"; sourceTree = "<group>"; };
+		6BDC26B018C40AB800FA4D41 /* JWCCollectionViewCellRememberIt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JWCCollectionViewCellRememberIt.m; path = "Remember It/JWCCollectionViewCellRememberIt.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +104,10 @@
 		6B498EFF18C2A9E900C88438 = {
 			isa = PBXGroup;
 			children = (
+				6B498F1D18C2A9E900C88438 /* Main_iPhone.storyboard */,
+				6B498F2018C2A9E900C88438 /* Main_iPad.storyboard */,
+				6B498F1A18C2A9E900C88438 /* JWCAppDelegate.h */,
+				6B498F1B18C2A9E900C88438 /* JWCAppDelegate.m */,
 				6B498F1118C2A9E900C88438 /* Remember It */,
 				6B498F3318C2A9EA00C88438 /* Remember ItTests */,
 				6B498F0A18C2A9E900C88438 /* Frameworks */,
@@ -114,12 +138,10 @@
 		6B498F1118C2A9E900C88438 /* Remember It */ = {
 			isa = PBXGroup;
 			children = (
-				6B498F1A18C2A9E900C88438 /* JWCAppDelegate.h */,
-				6B498F1B18C2A9E900C88438 /* JWCAppDelegate.m */,
-				6B498F1D18C2A9E900C88438 /* Main_iPhone.storyboard */,
-				6B498F2018C2A9E900C88438 /* Main_iPad.storyboard */,
 				6B498F2318C2A9E900C88438 /* JWCViewController.h */,
 				6B498F2418C2A9E900C88438 /* JWCViewController.m */,
+				6BDC26A118C40A4800FA4D41 /* Data Source */,
+				6BDC26A518C40A7800FA4D41 /* Collection View Cells */,
 				6B498F2618C2A9E900C88438 /* Images.xcassets */,
 				6B498F1218C2A9E900C88438 /* Supporting Files */,
 			);
@@ -129,6 +151,7 @@
 		6B498F1218C2A9E900C88438 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				6BDC269C18C404D000FA4D41 /* BlueGradient.png */,
 				6B498F1318C2A9E900C88438 /* Remember It-Info.plist */,
 				6B498F1418C2A9E900C88438 /* InfoPlist.strings */,
 				6B498F1718C2A9E900C88438 /* main.m */,
@@ -153,6 +176,33 @@
 				6B498F3618C2A9EA00C88438 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6BDC26A118C40A4800FA4D41 /* Data Source */ = {
+			isa = PBXGroup;
+			children = (
+				6BDC269E18C407DE00FA4D41 /* JWCCollectionViewDataSourceRemeberIt.h */,
+				6BDC269F18C407DE00FA4D41 /* JWCCollectionViewDataSourceRemeberIt.m */,
+			);
+			name = "Data Source";
+			sourceTree = "<group>";
+		};
+		6BDC26A518C40A7800FA4D41 /* Collection View Cells */ = {
+			isa = PBXGroup;
+			children = (
+				6BDC26A218C40A7400FA4D41 /* JWCCollectionViewCellDescription.h */,
+				6BDC26A318C40A7400FA4D41 /* JWCCollectionViewCellDescription.m */,
+				6BDC26A618C40A9300FA4D41 /* JWCCollectionViewCellReminder.h */,
+				6BDC26A718C40A9300FA4D41 /* JWCCollectionViewCellReminder.m */,
+				6BDC26A918C40AA200FA4D41 /* JWCCollectionViewCellOptions.h */,
+				6BDC26AA18C40AA200FA4D41 /* JWCCollectionViewCellOptions.m */,
+				6BDC26AC18C40AAB00FA4D41 /* JWCCollectionViewCellContacts.h */,
+				6BDC26AD18C40AAB00FA4D41 /* JWCCollectionViewCellContacts.m */,
+				6BDC26AF18C40AB800FA4D41 /* JWCCollectionViewCellRememberIt.h */,
+				6BDC26B018C40AB800FA4D41 /* JWCCollectionViewCellRememberIt.m */,
+			);
+			name = "Collection View Cells";
+			path = ..;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,6 +282,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6BDC269D18C404D000FA4D41 /* BlueGradient.png in Resources */,
 				6B498F2218C2A9E900C88438 /* Main_iPad.storyboard in Resources */,
 				6B498F2718C2A9E900C88438 /* Images.xcassets in Resources */,
 				6B498F1F18C2A9E900C88438 /* Main_iPhone.storyboard in Resources */,
@@ -255,7 +306,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				6B498F1818C2A9E900C88438 /* main.m in Sources */,
+				6BDC26B118C40AB800FA4D41 /* JWCCollectionViewCellRememberIt.m in Sources */,
+				6BDC26A818C40A9300FA4D41 /* JWCCollectionViewCellReminder.m in Sources */,
 				6B498F1C18C2A9E900C88438 /* JWCAppDelegate.m in Sources */,
+				6BDC26AB18C40AA200FA4D41 /* JWCCollectionViewCellOptions.m in Sources */,
+				6BDC26AE18C40AAB00FA4D41 /* JWCCollectionViewCellContacts.m in Sources */,
+				6BDC26A418C40A7400FA4D41 /* JWCCollectionViewCellDescription.m in Sources */,
+				6BDC26A018C407DE00FA4D41 /* JWCCollectionViewDataSourceRemeberIt.m in Sources */,
 				6B498F2518C2A9E900C88438 /* JWCViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -293,6 +350,7 @@
 				6B498F1E18C2A9E900C88438 /* Base */,
 			);
 			name = Main_iPhone.storyboard;
+			path = "Remember It";
 			sourceTree = "<group>";
 		};
 		6B498F2018C2A9E900C88438 /* Main_iPad.storyboard */ = {
@@ -301,6 +359,7 @@
 				6B498F2118C2A9E900C88438 /* Base */,
 			);
 			name = Main_iPad.storyboard;
+			path = "Remember It";
 			sourceTree = "<group>";
 		};
 		6B498F3618C2A9EA00C88438 /* InfoPlist.strings */ = {
@@ -475,6 +534,7 @@
 				6B498F3F18C2A9EA00C88438 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6B498F4018C2A9EA00C88438 /* Build configuration list for PBXNativeTarget "Remember ItTests" */ = {
 			isa = XCConfigurationList;
@@ -483,6 +543,7 @@
 				6B498F4218C2A9EA00C88438 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
