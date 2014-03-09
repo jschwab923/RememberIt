@@ -66,31 +66,31 @@
                                             <rect key="frame" x="0.0" y="0.0" width="300" height="110"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="hours" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="lgJ-Tw-wZ7">
-                                                    <rect key="frame" x="53" y="32" width="63" height="30"/>
+                                                <textField opaque="NO" clipsSubviews="YES" tag="1" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="hours" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="lgJ-Tw-wZ7">
+                                                    <rect key="frame" x="53" y="32" width="69" height="30"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" name="Avenir-Light" family="Avenir" pointSize="16"/>
-                                                    <textInputTraits key="textInputTraits"/>
+                                                    <textInputTraits key="textInputTraits" enablesReturnKeyAutomatically="YES"/>
                                                     <connections>
-                                                        <outlet property="delegate" destination="RcX-L7-Gsy" id="mE8-am-EbF"/>
+                                                        <outlet property="delegate" destination="vXZ-lx-hvc" id="xC0-Hn-jOb"/>
                                                     </connections>
                                                 </textField>
-                                                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="mins" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="8Ha-88-tbM">
-                                                    <rect key="frame" x="124" y="32" width="63" height="30"/>
+                                                <textField opaque="NO" clipsSubviews="YES" tag="2" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="mins" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="8Ha-88-tbM">
+                                                    <rect key="frame" x="130" y="32" width="79" height="30"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" name="Avenir-Light" family="Avenir" pointSize="16"/>
-                                                    <textInputTraits key="textInputTraits"/>
+                                                    <textInputTraits key="textInputTraits" enablesReturnKeyAutomatically="YES"/>
                                                     <connections>
-                                                        <outlet property="delegate" destination="RcX-L7-Gsy" id="CP7-Kj-yIv"/>
+                                                        <outlet property="delegate" destination="vXZ-lx-hvc" id="ZSj-YT-04O"/>
                                                     </connections>
                                                 </textField>
-                                                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="secs" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="FdS-Ed-Tl3">
-                                                    <rect key="frame" x="197" y="32" width="63" height="30"/>
+                                                <textField opaque="NO" clipsSubviews="YES" tag="3" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="secs" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="FdS-Ed-Tl3">
+                                                    <rect key="frame" x="217" y="32" width="67" height="30"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" name="Avenir-Light" family="Avenir" pointSize="16"/>
-                                                    <textInputTraits key="textInputTraits"/>
+                                                    <textInputTraits key="textInputTraits" enablesReturnKeyAutomatically="YES"/>
                                                     <connections>
-                                                        <outlet property="delegate" destination="RcX-L7-Gsy" id="iO0-Pq-AYN"/>
+                                                        <outlet property="delegate" destination="vXZ-lx-hvc" id="YnF-4z-IyP"/>
                                                     </connections>
                                                 </textField>
                                                 <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="How long until you want a reminder?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fr6-T7-f8V">
@@ -104,7 +104,6 @@
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                                     <connections>
                                                         <action selector="valueChangedStepper:" destination="vXZ-lx-hvc" eventType="valueChanged" id="YCN-hn-5IR"/>
-                                                        <action selector="valueChangedStepper:" destination="7Pa-Eh-DBP" eventType="valueChanged" id="scc-5K-Cyf"/>
                                                     </connections>
                                                 </stepper>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="hourglass" translatesAutoresizingMaskIntoConstraints="NO" id="cBi-Nv-SzZ">
@@ -116,7 +115,7 @@
                                         </view>
                                         <size key="customSize" width="300" height="110"/>
                                         <connections>
-                                            <outlet property="stepper" destination="nuI-o3-gYg" id="BdL-rs-qxD"/>
+                                            <outlet property="stepper" destination="nuI-o3-gYg" id="3yg-Oc-nfS"/>
                                             <outlet property="textFieldHours" destination="lgJ-Tw-wZ7" id="qO5-ju-ICg"/>
                                             <outlet property="textFieldMinutes" destination="8Ha-88-tbM" id="MUW-gP-DLp"/>
                                             <outlet property="textFieldSeconds" destination="FdS-Ed-Tl3" id="kQw-gS-6zG"/>
@@ -225,7 +224,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <connections>
-                        <outlet property="collectionViewNewRemeberIt" destination="NeU-4W-OFw" id="8Jd-fq-Z2U"/>
+                        <outlet property="collectionViewNewRememberIt" destination="NeU-4W-OFw" id="19f-o6-y1z"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>

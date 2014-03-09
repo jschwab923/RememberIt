@@ -9,6 +9,6 @@
 #import <UIKit/UIKit.h>
 
 @interface JWCViewController : UIViewController
-@property (weak, nonatomic) IBOutlet UICollectionView *collectionViewNewRemeberIt;
+@property (weak, nonatomic) IBOutlet UICollectionView *collectionViewNewRememberIt;
 
 @end

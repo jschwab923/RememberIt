@@ -29,6 +29,7 @@
 		6BDC26AB18C40AA200FA4D41 /* JWCCollectionViewCellOptions.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BDC26AA18C40AA200FA4D41 /* JWCCollectionViewCellOptions.m */; };
 		6BDC26AE18C40AAB00FA4D41 /* JWCCollectionViewCellContacts.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BDC26AD18C40AAB00FA4D41 /* JWCCollectionViewCellContacts.m */; };
 		6BDC26B118C40AB800FA4D41 /* JWCCollectionViewCellRememberIt.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BDC26B018C40AB800FA4D41 /* JWCCollectionViewCellRememberIt.m */; };
+		6BDC26B418C4197000FA4D41 /* iPhone5_36@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6BDC26B318C4197000FA4D41 /* iPhone5_36@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +63,7 @@
 		6B498F3518C2A9EA00C88438 /* Remember ItTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Remember ItTests-Info.plist"; sourceTree = "<group>"; };
 		6B498F3718C2A9EA00C88438 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6B498F3918C2A9EA00C88438 /* Remember_ItTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Remember_ItTests.m; sourceTree = "<group>"; };
+		6BA1944D18CD0DA500D7989D /* Constants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
 		6BDC269C18C404D000FA4D41 /* BlueGradient.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BlueGradient.png; sourceTree = "<group>"; };
 		6BDC269E18C407DE00FA4D41 /* JWCCollectionViewDataSourceRemeberIt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JWCCollectionViewDataSourceRemeberIt.h; sourceTree = "<group>"; };
 		6BDC269F18C407DE00FA4D41 /* JWCCollectionViewDataSourceRemeberIt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JWCCollectionViewDataSourceRemeberIt.m; sourceTree = "<group>"; };
@@ -75,6 +77,7 @@
 		6BDC26AD18C40AAB00FA4D41 /* JWCCollectionViewCellContacts.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JWCCollectionViewCellContacts.m; sourceTree = "<group>"; };
 		6BDC26AF18C40AB800FA4D41 /* JWCCollectionViewCellRememberIt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JWCCollectionViewCellRememberIt.h; path = "Remember It/JWCCollectionViewCellRememberIt.h"; sourceTree = "<group>"; };
 		6BDC26B018C40AB800FA4D41 /* JWCCollectionViewCellRememberIt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JWCCollectionViewCellRememberIt.m; path = "Remember It/JWCCollectionViewCellRememberIt.m"; sourceTree = "<group>"; };
+		6BDC26B318C4197000FA4D41 /* iPhone5_36@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPhone5_36@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -151,7 +154,9 @@
 		6B498F1218C2A9E900C88438 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				6BA1944D18CD0DA500D7989D /* Constants.h */,
 				6BDC269C18C404D000FA4D41 /* BlueGradient.png */,
+				6BDC26B318C4197000FA4D41 /* iPhone5_36@2x.png */,
 				6B498F1318C2A9E900C88438 /* Remember It-Info.plist */,
 				6B498F1418C2A9E900C88438 /* InfoPlist.strings */,
 				6B498F1718C2A9E900C88438 /* main.m */,
@@ -286,6 +291,7 @@
 				6B498F2218C2A9E900C88438 /* Main_iPad.storyboard in Resources */,
 				6B498F2718C2A9E900C88438 /* Images.xcassets in Resources */,
 				6B498F1F18C2A9E900C88438 /* Main_iPhone.storyboard in Resources */,
+				6BDC26B418C4197000FA4D41 /* iPhone5_36@2x.png in Resources */,
 				6B498F1618C2A9E900C88438 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

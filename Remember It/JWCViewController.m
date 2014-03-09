@@ -7,6 +7,7 @@
 //
 
 #import "JWCViewController.h"
+#import "JWCCollectionViewCellReminder.h"
 
 @interface JWCViewController ()
 <UICollectionViewDelegate, UICollectionViewDelegateFlowLayout, UITextFieldDelegate>
@@ -15,6 +16,8 @@
     UITextField *_selectedTextField;
 }
 
+@property (weak, nonatomic) UIStepper *stepperTime;
+
 @end
 
 @implementation JWCViewController
@@ -22,7 +25,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    self.view.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"BlueGradient"]];
+    self.view.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"iPhone5_36@2x"]];
 }
 
 - (void)didReceiveMemoryWarning
@@ -44,13 +47,43 @@
 
 - (IBAction)valueChangedStepper:(UIStepper *)timeStepper
 {
-    _selectedTextField.text = [NSString stringWithFormat:@"%i", (int)timeStepper.value];
+    switch (_selectedTextField.tag) {
+        case TAG_HOURS:
+            _selectedTextField.text = [NSString stringWithFormat:@"%ihrs", (int)timeStepper.value];
+            break;
+        case TAG_MINUTES:
+            _selectedTextField.text = [NSString stringWithFormat:@"%imins", (int)timeStepper.value];
+            break;
+        case TAG_SECONDS:
+            _selectedTextField.text = [NSString stringWithFormat:@"%isecs", (int)timeStepper.value];
+            break;
+        default:
+            
+            break;
+    }
 }
 
 #pragma mark - UITextFieldDelegate
 - (BOOL)textFieldShouldBeginEditing:(UITextField *)textField
 {
     _selectedTextField = textField;
+    self.stepperTime.value = _selectedTextField.text.intValue;
+    switch (_selectedTextField.tag) {
+        case TAG_HOURS:
+            self.stepperTime.minimumValue = 0;
+            self.stepperTime.maximumValue = 12;
+            break;
+        case TAG_MINUTES:
+            self.stepperTime.minimumValue = 0;
+            self.stepperTime.maximumValue = 59;
+            break;
+        case TAG_SECONDS:
+            self.stepperTime.minimumValue = 0;
+            self.stepperTime.maximumValue = 59;
+            break;
+        default:
+            break;
+    }
     return YES;
 }
 

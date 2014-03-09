@@ -7,6 +7,7 @@
 //
 
 #import "JWCCollectionViewDataSourceRemeberIt.h"
+#import "JWCCollectionViewCellReminder.h"
 
 @implementation JWCCollectionViewDataSourceRemeberIt 
 
